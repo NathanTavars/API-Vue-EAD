@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/home/HomeView.vue'
 import MySupports from '../views/Supports/MySupports'
+import ModulesAndLessons from '@/views/modules/ModulesAndLessons.vue'
 
 const routes = [
   {
@@ -11,6 +12,11 @@ const routes = [
         path: 'minhas-duvidas',
         name: 'campus.my.supports',
         component: MySupports
+      },
+      {
+        path: 'modulos',
+        name: 'campus.modules',
+        component: ModulesAndLessons
       },
       {
         path: '',
