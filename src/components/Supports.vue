@@ -69,13 +69,13 @@
       :show-modal="modal.showModal"
       :support-reply="modal.supportReply"
       @closeModal="modal.showModal = false">
-    </modal-support>
+  </modal-support>
 </template>
 
 <script>
 import { computed, ref } from 'vue';
 import { useStore } from 'vuex'
-import ModalSupport from './SupportsModal.vue'
+import ModalSupport from './SupportModal.vue'
 export default {
   name: "Supports",
   setup() {

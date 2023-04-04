@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/home/HomeView.vue'
-import MySupports from '../views/Supports/MySupports'
+import MySupports from '../views/supports/MySupports'
 import ModulesAndLessons from '@/views/modules/ModulesAndLessons.vue'
 import Auth from '@/views/auth/AuthView.vue'
 import ForgetPassword from '@/views/auth/ForgetPassword.vue'
@@ -18,9 +18,7 @@ const routes = [
         path: 'minhas-duvidas',
         name: 'campus.my.supports',
         component: MySupports,
-        meta: {
-          auth: true
-        }
+
       },
       {
         path: 'modulos',

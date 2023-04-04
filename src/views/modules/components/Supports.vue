@@ -23,7 +23,7 @@
 import { computed, ref, watch } from 'vue'
 import { useStore } from 'vuex'
 import Supports from '@/components/Supports.vue'
-import ModalSupport from '@/components/SupportsModal.vue'
+import ModalSupport from '@/components/SupportModal.vue'
 export default {
   
   name: "SupportsLesson",

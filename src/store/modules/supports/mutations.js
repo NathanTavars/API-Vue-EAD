@@ -1,5 +1,6 @@
 const mutations = {
     SET_SUPPORTS (state, supports) {
+        // state.supports = supports
         state.supports = Object.assign({}, state.supports, supports)
     },
 
